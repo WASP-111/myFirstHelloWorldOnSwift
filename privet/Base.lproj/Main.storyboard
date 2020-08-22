@@ -43,7 +43,6 @@
                                             <color key="titleColor" red="1" green="0.95686274510000002" blue="0.56078431370000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="showTextedButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="3TK-M0-lLN"/>
                                             <segue destination="9I9-bO-49d" kind="presentation" id="HWv-rw-Dzk"/>
                                         </connections>
                                     </button>
@@ -65,7 +64,8 @@
                     </view>
                     <connections>
                         <outlet property="helloWorldLabel" destination="FZp-6i-jbD" id="Oci-Id-6Sb"/>
-                        <outlet property="showTextButton" destination="RJc-P5-RPY" id="vBB-QW-IY8"/>
+                        <outlet property="showTextButton" destination="RJc-P5-RPY" id="wo9-tn-dGi"/>
+                        <outlet property="transitionControllerButton" destination="mwe-qD-RAe" id="QYg-bD-Duj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
